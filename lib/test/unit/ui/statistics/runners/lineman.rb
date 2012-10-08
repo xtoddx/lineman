@@ -4,8 +4,8 @@ require_relative '../base_runner'
 #require 'test/unit/diff'
 
 
-module Test::Unit::UI::Statistics::Lineman # :nodoc:
-  class TestRunner < Test::Unit::UI::Statistics::BaseRunner # :nodoc:
+module Test::Unit::UI::Statistics::Lineman
+  class TestRunner < Test::Unit::UI::Statistics::BaseRunner
 
     def self.name
       'lineman'

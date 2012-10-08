@@ -2,7 +2,7 @@ require 'test/unit/ui/testrunner'
 require 'test/unit/ui/testrunnermediator'
 require_relative '../statistics'
 
-module Test::Unit::UI::Statistics # :nodoc:
+module Test::Unit::UI::Statistics
 
   # Inherit from this class to create a runner that has access to statistics.
   #

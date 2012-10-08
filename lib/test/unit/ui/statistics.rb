@@ -1,5 +1,5 @@
-module Test::Unit::UI::Statistics # :nodoc:
-  class CaseStatistics # :nodoc:
+module Test::Unit::UI::Statistics
+  class CaseStatistics
     attr_accessor :pass
     attr_accessor :fail
     attr_accessor :errs
@@ -16,9 +16,6 @@ module Test::Unit::UI::Statistics # :nodoc:
       self.note = 0
       @start_time = Time.now
       @end_time = nil
-
-      #@old_results = results.dup
-      #@new_results = results
     end
 
     def elapsed_time
@@ -31,12 +28,11 @@ module Test::Unit::UI::Statistics # :nodoc:
 
     def complete
       @end_time = Time.now
-      #@new_results = @new_results.dup
     end
   end
 
 
-  class SuiteStatistics # :nodoc:
+  class SuiteStatistics
     attr_reader :test_suite
     attr_accessor :forward_class
 
