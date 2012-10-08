@@ -1,0 +1,17 @@
++lineman+ is a test runner for
+ test-unit[https://github.com/test-unit/test-unit] that prints a line per test, with statistics about its performance.
+
+Example output:
+  NPCRobotTest
+      test: should have a cool nickname                 0:1      0.01    N
+      test: should have big birthday party              1:1      0.00     
+      test: should have pizzas for party                0:0      0.00   ON
+      test: should not dance                            0:0      0.00  P  
+  NPCRobotTest                                          1:2      0.01  PON
+  test/npc_robot_test                                   1:2      0.01  PON
+
+The characters P, O, and N that are reported in the last column map to calls to
++pend+, +omit+, and +notify+ inside of the test.  (These are part of test-unit).
+
+Make pull requests and be friendly.
+
