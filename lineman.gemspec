@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w[lib]
 
   s.rdoc_options = ["--charset=UTF-8"]
-  s.extra_rdoc_files = %w[README.rdoc]
+  s.extra_rdoc_files = %w[README.md]
 
   s.add_dependency('test-unit', '~> 2.4')
 
