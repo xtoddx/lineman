@@ -1,5 +1,6 @@
 +lineman+ is a test runner for
- test-unit[https://github.com/test-unit/test-unit] that prints a line per test, with statistics about its performance.
+test-unit[https://github.com/test-unit/test-unit] that prints a line per test,
+with statistics about its performance.
 
 Example output:
   NPCRobotTest
