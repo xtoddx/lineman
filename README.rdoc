@@ -12,7 +12,9 @@ Example output:
   test/npc_robot_test                                   1:2      0.01  PON
 
   ========
+
   Failures
+
   ========
 
     1) Failure:
@@ -32,7 +34,9 @@ Example output:
 
 
   =========
+
   Omissions
+
   =========
 
     1) Omission: I am not sure what a pizza is
@@ -41,7 +45,9 @@ Example output:
 
 
   ========
+
   Pendings
+
   ========
 
     1) Pending: pended.
@@ -50,7 +56,9 @@ Example output:
 
 
   =============
+
   Notifications
+
   =============
 
     1) Notification: Claptrap
