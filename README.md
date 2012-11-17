@@ -74,6 +74,7 @@ The characters P, O, and N that are reported in the last column map to calls to
 Usage:
 
 * put lineman in you bundle or otherwise install the gem
+* require 'test/unit/ui/statistics'
 * `Test::Unit::AutoRunner.default_runner = 'lineman'`
 * You could also specify --runner on the command line or your test-unit.yml
 * Run your tests!
