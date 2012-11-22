@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'lineman'
-  s.version = '0.9.0'
-  s.date = '2012-10-07'
+  s.version = '0.9.1'
+  s.date = '2012-11-22'
 
   s.summary = 'A test runner (UI) for test-unit'
   s.description = 'Lineman provides clean output for your tests, giving you one line for each test that shows the name along with some statistics.'
